@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{e3d7229b-8f6a-4844-b62e-06813cdf5d60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\drawing">
+      <UniqueIdentifier>{f2a62f6b-47cd-4368-9a0b-39571e0ecb6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\utils">
+      <UniqueIdentifier>{4feeda76-230c-4aff-9862-5b40be2ec0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\sdk">
+      <UniqueIdentifier>{e7118637-4a27-454c-a2e7-0f7a50b5950c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\sdk\il2cpp">
+      <UniqueIdentifier>{05bbfb5a-dd07-4ada-9653-cf6442e35426}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_stdlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.c">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.c">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Tramp.c">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HDE.C">
+      <Filter>Source Files\core\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\drawing\d3d.hpp">
+      <Filter>Source Files\core\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="core\drawing\D2DRender\ActualRender.hpp">
+      <Filter>Source Files\core\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\utils\hookengine.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\mem.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\vector.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\utils\xorstr.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\il2cpp\dissector.hpp">
+      <Filter>Source Files\core\sdk\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\il2cpp\wrapper.hpp">
+      <Filter>Source Files\core\sdk\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="core\stdafx.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\utils\crc32.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\game.hpp">
+      <Filter>Source Files\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\structs.hpp">
+      <Filter>Source Files\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\main\hooks.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\main\cache.hpp">
+      <Filter>Source Files\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\main\entities.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\main\aimutils.hpp">
+      <Filter>Source Files\core\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="core\main\other.hpp">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\utils\math.hpp">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="core\sdk\utils\xorf.hpp" />
+    <ClInclude Include="core\drawing\D2DRender\Render.hpp" />
+    <ClInclude Include="core\drawing\ui.hpp" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="core\sdk\utils\StringConverter.h" />
+    <ClInclude Include="Config\Menuvars.h" />
+    <ClInclude Include="ImGui\imconfig.h" />
+    <ClInclude Include="ImGui\imgui.h" />
+    <ClInclude Include="ImGui\imgui_elements.h" />
+    <ClInclude Include="ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="ImGui\imgui_internal.h" />
+    <ClInclude Include="ImGui\imgui_stdlib.h" />
+    <ClInclude Include="ImGui\imstb_rectpack.h" />
+    <ClInclude Include="ImGui\imstb_textedit.h" />
+    <ClInclude Include="ImGui\imstb_truetype.h" />
+    <ClInclude Include="detours\detours.h" />
+    <ClInclude Include="Config\NebelConfigSystem.h" />
+    <ClInclude Include="C:\Users\Nebel\Documents\GitHub\NebelChit\Catnip.cc\Catnip\Main\Utils\SimpleIni.h" />
+    <ClInclude Include="Config\SimpleIni.h" />
+    <ClInclude Include="LazyImporter.hpp">
+      <Filter>Source Files\core\sdk\il2cpp</Filter>
+    </ClInclude>
+    <ClInclude Include="hde64.h">
+      <Filter>Source Files\core\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours\detours.lib" />
+  </ItemGroup>
+</Project>
